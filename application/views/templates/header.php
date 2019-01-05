@@ -1,3 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+<link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>assets/css/semantic.min.css">
+<script
+  src="https://code.jquery.com/jquery-3.1.1.min.js"
+  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  crossorigin="anonymous"></script>
+<script src="<?php echo base_url(); ?>assets/js/semantic.min.js">
+  	 $('.tabular.menu .item').tab({history:false});
+  </script>
+</head>
+	<body>
 		<div class="ui massive menu">
 		  <a class="active item">
 		    Home
@@ -51,5 +66,4 @@
 		    </div>
 		  </div>
 		</div>
-	</body>
-</html>
+
