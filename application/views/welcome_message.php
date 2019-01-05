@@ -3,9 +3,11 @@
 <head lang="en">
     <meta charset="UTF-8">
     <title></title>
-  <script type="text/javascript" src="jquery/dist/jquery.min.js"></script>
+  <script type="text/javascript"src="code.jquery.com/jquery-1.10.2.min.js"></script>
   <link rel="stylesheet" type="text/css" href="semantic/dist/semantic.min.css">
-  <script src="semantic/dist/semantic.min.js"></script>
+  <script src="semantic/dist/semantic.min.js">
+  	 $('.tabular.menu .item').tab({history:false});
+  </script>
 </head>
 	<body>
 		<div class="ui massive menu">
@@ -16,7 +18,7 @@
 		    Messages
 		  </a>
 		  <div class="right menu">
-		    <div class="ui dropdown item">
+		    <div class="ui simple dropdown item">
 		      Language <i class="dropdown icon"></i>
 		      <div class="menu">
 		        <a class="item">English</a>
