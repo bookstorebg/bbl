@@ -60,10 +60,16 @@
 		      </a>
 		    </div>
 		  </div>
-		  <div class="twelve wide stretched column">
+		  <div class="eight wide stretched column">
 		    <div class="ui segment">
-		      This is an stretched grid column. This segment will always match the tab height
+		      knigi
+		    </div>
+		  </div>
+		  <div class="four wide stretched column">
+		    <div class="ui segment">
+		      reklami
 		    </div>
 		  </div>
 		</div>
+
 
